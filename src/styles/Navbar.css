@@ -1,4 +1,9 @@
 
+:root{
+    --blue: #102da6;
+    --gold: #FFD700;
+}
+
 .navbar{
     display: flex;
     justify-content: space-around;
@@ -7,6 +12,79 @@
     background-color: #000;
 }
 
+.logo{
+    color: #fff;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    list-style: none;
+}
+
+.nav-mobile{
+    display: none;
+}
+
+.nav-items{
+    font-size: 1rem;
+    padding: 0.63em 1.25em;
+}
+
+.nav-links{
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-links:hover{
+    color: var(--gold)
+}
+
+.mobile-icon{
+    display: none;
+}
+
+
+
+@media screen and (max-width: 780px) {
+   
+    .nav-menu{
+        display: none;
+    }
+
+    .nav-mobile{
+        display: block;
+        position: absolute;
+        list-style: none;
+        color: #fff;
+        top: 5em;
+        left: 0;
+        transition: all 0.5s ease-out;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.9);
+    }
+
+    .nav-items{
+        text-align: center;
+        padding: 1.7em;
+        width: 100%;
+        transition: all 0.5s ease;
+    }
+
+    .mobile-icon{
+        display: block;
+        color: #fff;
+        position: absolute;
+        top: .8em;
+        right: 1.6em;
+        font-size: 2em;
+    }
+
+}
 
 
 

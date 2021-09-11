@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
+import '../styles/Navbar.css'
 
 const Navbar = () => {
 
@@ -17,7 +18,7 @@ const Navbar = () => {
         <nav className="navbar">
             <Link to='/' className="logo"> Dog Rescue </Link>
 
-            <ul>
+            <ul className={mobileNav ? 'nav-mobile' : 'nav-menu'}>
                 <li className="nav-items">
                     <Link to='/' className="nav-links" onClick={handleCloseMobileNav}> HOME </Link>
                 </li>
