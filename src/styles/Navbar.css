@@ -1,7 +1,39 @@
 
 :root{
-    --blue: #102da6;
-    --gold: #FFD700;
+    --blue: #0f2b4c;
+    --gold: #e4c204;
+}
+
+.info-bar{
+    background-color: var(--gold);
+    height: 1.5em;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.info-bar-items{
+    padding: 0.31em;
+}
+
+.info-text{
+    color: var(--blue);
+    font-size: 0.75em;
+}
+
+.social-media-icons{
+    list-style: none;
+}
+
+.icon{
+    display: inline-block;
+    padding: 0 .31em;
+    color: var(--blue)
+}
+
+.icon:hover{
+    cursor: pointer;
+    transform: scale(1.1)
 }
 
 .navbar{
@@ -9,7 +41,7 @@
     justify-content: space-around;
     align-items: center;
     height: 5em;
-    background-color: #000;
+    background-color: var(--blue);
 }
 
 .logo{
@@ -33,6 +65,12 @@
 .nav-items{
     font-size: 1rem;
     padding: 0.63em 1.25em;
+    transition: all .2s ease-in-out;
+}
+
+.nav-items:hover{
+    transform: scale(1.1);
+
 }
 
 .nav-links{
@@ -41,7 +79,8 @@
 }
 
 .nav-links:hover{
-    color: var(--gold)
+    color: var(--gold);
+    transform: scale(3);
 }
 
 .mobile-icon{
