@@ -16,28 +16,6 @@ const Navbar = () => {
 
     return (
         <>
-            <div className="info-bar">
-                <div className="info-bar-items">
-                    <h1 className="info-text">
-                        <i className="fas fa-mobile-alt"></i> (973) 123-456 
-                    </h1>
-                </div>
-
-                <div className="info-bar-items">
-                    <h1 className="info-text">
-                        <i className="fas fa-map-marker-alt"></i>  123 DOG RESCUE LANE, TOMS RIVER, NJ 08753 
-                    </h1>
-                </div>
-
-                <div className="info-bar-items">
-                    <ul className="social-media-icons">
-                        <li className="icon"> <i class="fab fa-facebook"></i> </li>
-                        <li className="icon"> <i class="fab fa-instagram"></i> </li>
-                        <li className="icon"> <i class="fab fa-twitter"></i> </li>
-                    </ul>
-                </div>
-            </div>
-
             <nav className="navbar">
                 <Link to='/' className="logo"> Dog Rescue </Link>
 

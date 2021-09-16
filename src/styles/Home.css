@@ -1,4 +1,10 @@
 
+:root{
+    --blue: #0f2b4c; /* rgb: 15 43 76   */
+    --gold: #e4c204; /* rgb: 228 194 4 */
+}
+
+
 .home{
     height: 100vh;
     background-image: url('../images/home.jpeg');
@@ -7,3 +13,23 @@
     background-repeat: no-repeat;
     width: 100%;
 }
+
+.home-heading{
+    font-size: 4rem;
+}
+
+.home-sub-heading{
+    font-size: 4rem;
+}
+
+.home-btns-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.btn-items{
+    align-items: center;
+}
+
