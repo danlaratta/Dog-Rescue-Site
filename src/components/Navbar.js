@@ -25,15 +25,7 @@ const Navbar = () => {
                     </li>
 
                     <li className="nav-items">
-                        <Link to='/about-us' className="nav-links" onClick={handleCloseMobileNav}> ABOUT US </Link>
-                    </li>
-
-                    <li className="nav-items">
                         <Link to='/adopt' className="nav-links" onClick={handleCloseMobileNav}> ADOPT </Link>
-                    </li>
-
-                    <li className="nav-items">
-                        <Link to='/events' className="nav-links" onClick={handleCloseMobileNav}> EVENTS </Link>
                     </li>
 
                     <li className="nav-items">

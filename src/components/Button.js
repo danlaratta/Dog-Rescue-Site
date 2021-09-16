@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import '../styles/DonateBtn.css'
+import '../styles/Button.css'
 
-const DonateBtn = ({ children, btnStyle, btnSize, page  }) => {
+const Button = ({ children, btnStyle, btnSize }) => {
 
     const STYLES = ['solid', 'outline']
 
@@ -16,11 +16,10 @@ const DonateBtn = ({ children, btnStyle, btnSize, page  }) => {
 
     return (
         <>
-            <Link to={page}>
-                <button className={`btn ${checkStyle} ${checkSize}`}> { children } </button>
-            </Link>
+            <button className={`btn ${checkStyle} ${checkSize}`}> { children } </button>
+
         </>
     )
 }
 
-export default DonateBtn
+export default Button

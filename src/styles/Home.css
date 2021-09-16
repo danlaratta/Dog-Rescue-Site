@@ -1,12 +1,12 @@
 
 :root{
-    --blue: #0f2b4c; /* rgb: 15 43 76   */
-    --gold: #e4c204; /* rgb: 228 194 4 */
+    --blue: #4081ec; /* rgba(64, 129, 236, 1)   */
+    --orange: #f58220; /* rgba(245, 130, 32, 1) */
 }
 
 
 .home{
-    height: 100vh;
+    height: 42.75em;
     background-image: url('../images/home.jpeg');
     background-position: center;
     background-size: cover;
@@ -14,22 +14,121 @@
     width: 100%;
 }
 
+.heading-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .home-heading{
     font-size: 4rem;
+    padding-bottom: 0.5em;
+    color: #fff;
+    margin-top: 2em;
+    text-shadow: 2px 2px 5px #000;
 }
 
 .home-sub-heading{
     font-size: 4rem;
+    color: #fff;
+    text-shadow: 2px 2px 5px #000;
+
 }
 
 .home-btns-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    height: 100vh;
 }
 
 .btn-items{
     align-items: center;
+    padding: 5em 10em;
+    
 }
+
+.mission-container{
+    width: 100%;
+    padding: 3em 0;
+}
+
+.mission-header{
+    padding-bottom: 1em;
+    font-size: 3rem;
+}
+
+.mission-text{
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5em;
+    font-size: 1.3rem;
+}
+
+.links-container{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-bottom: 3em;
+}
+
+.link-img{
+    width: 31.25em;
+    height: 31.25em;
+    border-radius: 1em;
+}
+
+#img-link{
+    text-decoration: none;
+}
+
+.link-details{
+    width: 100%;
+    height: 19%;
+    background-color: var(--orange);
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+
+}
+
+.link-title, .link-sub-title{
+    color: #fff;
+}
+
+.link-title{
+    font-size: 2.5rem;
+    padding-top: 0.32em;
+}
+
+.link-sub-title{
+    font-size: 1rem;
+    padding-bottom: 0.32em;
+}
+
+#detail1{
+    background-image: url('../images/home1.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#detail2{
+    background-image: url('../images/home2.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#detail3{
+    background-image: url('../images/home3.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
 

@@ -8,6 +8,7 @@ import Events from './pages/Events.js'
 import Volunteer from './pages/Volunteer.js'
 import Donate from './pages/Donate.js'
 import Contact from './pages/Contact.js'
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -24,6 +25,8 @@ function App() {
           <Route exact path='/donate' component={Donate} />
           <Route exact path='/contact-us' component={Contact} />
         </Switch>
+
+        <Footer />
       </Router>
 
     </div>

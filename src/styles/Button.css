@@ -1,7 +1,7 @@
 
 :root{
-    --blue: #0f2b4c; /* rgb: 15 43 76   */
-    --gold: #e4c204; /* rgb: 228 194 4 */
+    --blue: #4081ec; /* rgba(64, 129, 236, 1)   */
+    --orange: #f58220; /* rgba(245, 130, 32, 1) */
 }
 
 .btn{
@@ -12,19 +12,22 @@
 }
 
 .solid{
-    background-color: var(--gold);
+    background-color: var(--orange);
     color: #fff;
-    border: 3px solid var(--gold);
+    border: 3px solid var(--orange);
 }
 
 .outline{
-    background-color: rgba(15, 43, 76, 0.7);
+    background-color: rgba(255, 255, 255, 0);
     color: #fff;
-    border: 4px solid var(--blue);
+    border: 3px solid #fff;
+    text-shadow: 2px 2px 5px #000;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .outline:hover{
     transform: scale(1.1);
+    background-color: rgba(245, 130, 32, .7);
 }
 
 .small{
@@ -38,8 +41,8 @@
 }
 
 .large{
-    width: 13.5em;
-    height: 6.5em;
+    width: 6.5em;
+    height: 3.5em;
     font-size: 2rem;
 }
 
@@ -48,7 +51,7 @@
 
 :root{
     --blue: #0f2b4c;
-    --gold: #e4c204;
+    --orange: #e4c204;
 }
 
  
@@ -70,7 +73,7 @@
     background-color: transparent;
     color: #fff;
     padding: 8px 20px;
-    border: 3px solid var(--gold);
+    border: 3px solid var(--orange);
     transition: all 0.3s ease-out;
 }
 
