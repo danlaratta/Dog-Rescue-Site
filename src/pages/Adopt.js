@@ -14,7 +14,7 @@ const Adopt = () => {
 
     useEffect(() => {
         Axios.get('https://dog.ceo/api/breeds/list/all').then((res) => {
-            console.log(res.data.message.beagle)
+            console.log(res.data.message.beagle )
         })
     }, [count])
     
