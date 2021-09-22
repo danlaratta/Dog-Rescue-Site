@@ -5,22 +5,26 @@ import Axios from 'axios'
 
 const Adopt = () => {
 
-    const [dog, setDog] = useState('')
-    const [count, setCount] = useState(0)
+    const [dogs, setDogs] = useState('')
 
-    const handleCount = () => {
-        setCount(count + 1)
-    }
 
     useEffect(() => {
+        retrieveAPI()
+    }, [])
+
+    const retrieveAPI = () => {
         Axios.get('https://dog.ceo/api/breeds/list/all').then((res) => {
-            console.log(res.data.message.beagle )
+            if(res.data.messgae){
+                setDogs(res.data.message)
+            }
+        }).catch((error) => {
+            console.log(`An Error Occurred: ${error}`)
         })
-    }, [count])
+    }
     
     return (
         <>
-            <button onClick={handleCount}> Click me </button>
+            
         </>
     )
 }

@@ -11,9 +11,9 @@ const Footer = () => {
                 </h1>
 
                 <ul className="contact-info" id="column1">
-                    <li> <i class="fas fa-map-marker-alt"></i> 123 Dog Rescue Lane, New Jersey </li>
-                    <li> <i class="fas fa-mobile-alt"></i> (973) 123-546 </li>
-                    <li> <i class="far fa-envelope"></i> info@dogrescue.org</li>
+                    <li> <i className="fas fa-map-marker-alt"></i> 123 Dog Rescue Lane, New Jersey </li>
+                    <li> <i className="fas fa-mobile-alt"></i> (973) 123-546 </li>
+                    <li> <i className="far fa-envelope"></i> info@dogrescue.org</li>
                 </ul>
             </div>
 
@@ -51,9 +51,9 @@ const Footer = () => {
                 </h1>
 
                 <ul className="contact-info" id="column3">
-                    <li> <i class="fab fa-facebook"></i> </li>
-                    <li> <i class="fab fa-instagram"></i> </li>
-                    <li> <i class="fab fa-twitter"></i> </li>
+                    <li> <i className="fab fa-facebook"></i> </li>
+                    <li> <i className="fab fa-instagram"></i> </li>
+                    <li> <i className="fab fa-twitter"></i> </li>
                 </ul>
             </div>
         </div>
