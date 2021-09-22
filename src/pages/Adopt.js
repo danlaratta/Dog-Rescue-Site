@@ -21,6 +21,10 @@ const Adopt = () => {
             console.log(`An Error Occurred: ${error}`)
         })
     }
+
+    const displayData = () => {
+        dogs.map(dog)
+    }
     
     return (
         <>
