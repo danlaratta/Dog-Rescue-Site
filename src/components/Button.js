@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 import '../styles/Button.css'
 
 const Button = ({ children, btnStyle, btnSize }) => {
@@ -8,7 +8,7 @@ const Button = ({ children, btnStyle, btnSize }) => {
 
     const SIZES = ['small', 'medium', 'large']
 
-    const PAGES = ['/adopt', '/donate']
+    // const PAGES = ['/adopt', '/donate']
 
     const checkStyle = STYLES.includes(btnStyle) ? btnStyle : STYLES[0]
 

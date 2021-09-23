@@ -1,0 +1,27 @@
+
+:root{
+    --orange: #f58220; /* rgba(245, 130, 32, 1) */
+}
+
+
+.fa-search:before{
+    color: var(--orange);
+}
+
+#search{
+    padding: .2em .2em;
+    font-size: 1.3em;
+}
+
+.search-icon{
+    border: none;
+    position: absolute;
+    margin-left: -1.2em;
+    margin-top: .2em;
+    background-color: transparent;
+    font-size: 1.4em;
+}
+
+.search-icon:hover{
+    cursor: pointer;
+}

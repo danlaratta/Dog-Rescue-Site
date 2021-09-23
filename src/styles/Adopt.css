@@ -4,10 +4,39 @@
     --orange: #f58220; /* rgba(245, 130, 32, 1) */
 }
 
+.adopt{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.searchbar-component{
+    width: 100%;
+}
 
 
+.dogs-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
 
+.dog-item{
+    padding: 2em 1em;
+}
 
+#dog-img{
+    width: 400px;
+    height: 500px;
+}
+
+#dog-img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    border: 4px solid var(--orange);
+}
 
 
 
