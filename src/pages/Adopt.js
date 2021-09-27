@@ -26,6 +26,8 @@ const Adopt = () => {
     
     return (
         <div className="adopt">
+            <h1 className="adopt-title"> Dogs Available for Adoption </h1>
+            
             <div className="searchbar-component">
                 <SearchBar searchedBreed={searchedBreed} setSearchedBreed={setSearchedBreed} />
             </div>

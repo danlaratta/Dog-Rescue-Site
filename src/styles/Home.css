@@ -55,6 +55,7 @@
 .mission-header{
     padding-bottom: 1em;
     font-size: 3rem;
+    text-align: center;
 }
 
 .mission-text{
@@ -94,6 +95,7 @@
 
 .link-title, .link-sub-title{
     color: #fff;
+    text-align: center;
 }
 
 .link-title{

@@ -10,6 +10,11 @@
     padding: 0;
 }
 
+.adopt-title{
+    text-align: center;
+    padding-top: 2em;
+}
+
 .searchbar-component{
     width: 100%;
 }
