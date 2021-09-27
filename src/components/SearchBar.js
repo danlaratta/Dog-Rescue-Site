@@ -1,32 +1,43 @@
-import React, { useState } from 'react'
 import '../styles/SearchBar.css'
 
 const SearchBar = ({ searchedBreed, setSearchedBreed }) => {
 
-    const [submitted, setSubmitted] = useState(false)
-
-    const inputValue = searchedBreed
-
-    const handleSubmit = (e) => {
-        e.preventDefault()
-
-        setSubmitted(true)
-    }
-    
     return (
         <div className="search-bar">
-            <form onSubmit={handleSubmit}>
                 <input 
                     type='text'
                     id='search'
                     onChange={(e) => setSearchedBreed(e.target.value)}
-                    value={submitted ? inputValue : ''}
+                    value= {searchedBreed}
                     placeholder='Search Breed'
                 />
-                <button className="search-icon"> <i class="fas fa-search"></i> </button>
-            </form>
+                <button className="search-icon"> <i className="fas fa-search"></i> </button>
         </div>
     )
 }
 
 export default SearchBar
+
+
+/*
+    import '../styles/SearchBar.css'
+
+const SearchBar = ({ searchedBreed, setSearchedBreed }) => {
+
+    return (
+        <div className="search-bar">
+                <input 
+                    type='text'
+                    id='search'
+                    onChange={(e) => setSearchedBreed(e.target.value)}
+                    value= {searchedBreed}
+                    placeholder='Search Breed'
+                />
+                <button className="search-icon"> <i className="fas fa-search"></i> </button>
+        </div>
+    )
+}
+
+export default SearchBar
+
+*/

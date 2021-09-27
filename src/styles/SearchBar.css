@@ -9,6 +9,7 @@
 }
 
 #search{
+    width: 25%;
     padding: .2em .2em;
     font-size: 1.3em;
 }
@@ -20,8 +21,4 @@
     margin-top: .2em;
     background-color: transparent;
     font-size: 1.4em;
-}
-
-.search-icon:hover{
-    cursor: pointer;
 }

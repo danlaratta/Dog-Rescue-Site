@@ -10,16 +10,13 @@ const Adopt = () => {
 
     const getData = async () => {
 
-        // const url = `https://dog.ceo/api/breeds/list/all`
         const url = `https://dog.ceo/api/breed/${searchedBreed}/images` 
-        // const url = 'https://dog.ceo/api/breed/hound/images'
 
         const response = await Axios.get(url)
         
         // check if it received proper data then set the state to received value 
         if(response.data.message){
             setDogs(response.data.message)
-            console.log(response.data)
         }
     }
 
@@ -35,8 +32,7 @@ const Adopt = () => {
 
             <div className="dogs-container">
                 {dogs.slice(0, 16).map((dog) => (
-                    
-                    <div className="dog-item">
+                    <div className="dog-item" key={dog}>
                         <img src={dog} id="dog-img" alt="dog img" />
                     </div>
                 ))}
