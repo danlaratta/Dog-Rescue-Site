@@ -43,6 +43,11 @@
     border: 4px solid var(--orange);
 }
 
+.dog-name{
+    color: red;
+    font-size: 8em;
+    z-index: 20;
+}
 
 
 
