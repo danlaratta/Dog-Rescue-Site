@@ -6,7 +6,7 @@ import '../styles/DogDetails.css'
 const DogDetails = ( {searchedBreed}) => {
 
     const [names, setNames] = useState([])
-    
+
     const getNameData = async () => {
         const namesUrl = 'https://randommer.io/api/Name?nameType=firstname&quantity=16'
 

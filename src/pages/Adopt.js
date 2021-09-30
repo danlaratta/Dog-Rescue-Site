@@ -39,7 +39,7 @@ const Adopt = () => {
                 {dogs.slice(0, 16).map((dog) => (
                     <div className="dog-item" key={dog}>
                         <div className="dog-info" style={{backgroundImage: `url(${dog})`}}>
-                            
+                            {/* <DogDetails searchedBreed={searchedBreed} /> */}
                         </div>
                     </div>
                 ))}
