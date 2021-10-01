@@ -1,0 +1,41 @@
+
+:root{
+    --orange: #f58220; /* rgba(245, 130, 32, 1) */
+}
+
+.donate{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.donate-img{
+    height: 42.75em;
+    background-image: url('../images/volunteer.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: .8;
+}
+
+.donate-heading{
+    font-size: 4rem;
+    padding-bottom: 0.5em;
+    color: #fff;
+    text-shadow: 2px 2px 5px #000;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+

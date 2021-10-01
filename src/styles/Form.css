@@ -1,0 +1,73 @@
+
+:root{
+    --orange: #f58220; /* rgba(245, 130, 32, 1) */
+}
+
+.donate-form{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+.form{
+    max-width: 31.25em;
+    margin: 6em auto;
+    text-align: center;
+    padding: 3em 6em;
+    box-shadow: .31em .625em 1.125em #888888;
+    border: 2px solid var(--orange);
+}
+
+.form-header{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.fields{
+    padding-top: 1em;
+}
+
+.label{
+    text-align: left;
+    display: block;
+}
+
+.input{
+    height: 2.5em;
+    width: 25em;
+}
+
+.input, .textarea{
+    padding: .3em .6em;
+    margin: 0em 0;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    display: block;
+}
+
+.input:focus, .textarea:focus{
+    border: 2px solid var(--orange);
+}
+
+.input:hover, .textarea:hover{
+  border: 2px solid var(--orange);
+}
+
+.submit{
+    margin-top: 2em;
+    padding: 1em 1.5em;
+    background-color: #fff;
+}
+
+.submit:hover{
+    cursor: pointer;
+    background-color: var(--orange);
+    color:#000;
+    border: 2px solid #000;
+}
+  
+
+
+
+
