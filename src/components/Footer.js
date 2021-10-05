@@ -12,8 +12,8 @@ const Footer = () => {
 
                 <ul className="contact-info" id="column1">
                     <li> <i className="fas fa-map-marker-alt"></i> 123 Dog Rescue Lane, New Jersey </li>
-                    <li> <i className="fas fa-mobile-alt"></i> (973) 123-546 </li>
-                    <li> <i className="far fa-envelope"></i> info@dogrescue.org</li>
+                    <li> <i className="fas fa-mobile-alt"></i> (123) 546-7890 </li>
+                    <li> <i className="far fa-envelope"></i> info@dogrescue.org </li>
                 </ul>
             </div>
 

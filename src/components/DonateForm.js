@@ -4,7 +4,7 @@ import '../styles/Form.css'
 import 'react-phone-number-input/style.css'
 import Input from 'react-phone-number-input/input'
 
-const Form = ({ isFormSubmit }) => {
+const DonateForm = ({ isFormSubmit }) => {
 
     const history = useHistory()
     
@@ -48,7 +48,7 @@ const Form = ({ isFormSubmit }) => {
       }
 
     return (
-        <div className="donate-form">
+        <div className="form-container">
 
             <form onSubmit={handleSubmit} className={submitted ? 'hide' : 'form'}>
                 <h1 className="form-header"> Donation Form </h1>
@@ -135,53 +135,12 @@ const Form = ({ isFormSubmit }) => {
                         {`Your ${donation} donation was processed and greatly appreciated! A receipt has been sent to ${capitalLetter(email)} and should arrive shortly`}
                     </p>
                 </div>
-
-                {/* <table>
-                    <tr>
-                        <td> <strong> Receipt </strong> </td>
-                    </tr>
-                    
-                    <tr>
-                        <td> <strong> First Name </strong> </td>
-                        <td> {firstName}  </td>
-                    </tr>
-
-                    <tr>
-                        <td> <strong> Last Name </strong> </td>
-                        <td> {lastName}  </td>
-                    </tr>
-
-                    <tr>
-                        <td> <strong> Email </strong> </td>
-                        <td> {email}  </td>
-                    </tr>
-
-                    <tr>
-                        <td> <strong> Phone Number </strong> </td>
-                        <td> {phone}  </td>
-                    </tr>
-
-                    <tr>
-                        <td> <strong> First Name </strong> </td>
-                        <td> {firstName}  </td>
-                    </tr>
-
-                    <tr>
-                        <td> <strong> Donation </strong> </td>
-                        <td> {donation}  </td>
-                    </tr>
-
-                    <tr>
-                        <td> <strong> Comment </strong> </td>
-                        <td> {comment}  </td>
-                    </tr>
-                </table> */}
             </div>
         </div>
     )
 }
 
-export default Form
+export default DonateForm
 
 
 
