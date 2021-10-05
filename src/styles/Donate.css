@@ -3,6 +3,10 @@
     --orange: #f58220; /* rgba(245, 130, 32, 1) */
 }
 
+.hide{
+    display: none;
+}
+
 .donate{
     width: 100%;
     margin: 0;
