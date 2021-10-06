@@ -26,8 +26,8 @@
 }
 
 .outline:hover{
-    transform: scale(1.1);
-    background-color: rgba(245, 130, 32, .7);
+    transform: scale(1.1); 
+    background-color: rgba(0, 9, 63, 0.7);
 }
 
 .small{

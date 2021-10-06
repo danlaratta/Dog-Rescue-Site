@@ -16,6 +16,30 @@ const Navbar = () => {
 
     return (
         <>
+            <nav className="top-nav">
+                <div className="top-nav-container">
+                    <div className="top-nav-items">
+                        <h1 className="top-nav-info"> info@dogrescue.org </h1>
+                    </div>
+
+                    <div className="top-nav-items">
+                        <h1 className="top-nav-info"> (123) 546-7890 </h1>
+                    </div>
+
+                    <div className="top-nav-items">
+                        <h1 className="top-nav-info"> 123 Dog Rescue Lane, New Jersey </h1>
+                    </div>
+
+                    <div className="top-nav-items">
+                        <ul className="social-media-list">
+                            <li> <i className="fab fa-facebook"></i> </li>
+                            <li> <i className="fab fa-instagram"></i> </li>
+                            <li> <i className="fab fa-twitter"></i> </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            
             <nav className="navbar">
                 <Link to='/' className="logo"> Dog Rescue </Link>
 

@@ -2,12 +2,14 @@
 :root{
     --blue: #4081ec; /* rgba(64, 129, 236, 1)   */
     --orange: #f58220; /* rgba(245, 130, 32, 1) */
+    --darkblue: #00093f; 
+    --skyblue: #93b3e8;
 }
 
 .footer-container{
     height: 18.75em;
     width: 100%;
-    background-color: var(--orange);
+    background-color: var(--darkblue);
     color: #fff;
     display: flex;
     justify-content: space-around;

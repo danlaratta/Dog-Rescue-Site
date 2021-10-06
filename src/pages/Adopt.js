@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react'
 import '../styles/Adopt.css'
 import Axios from 'axios'
 import SearchBar from '../components/SearchBar'
-import DogDetails from '../components/DogDetails'
 
 const Adopt = () => {
 
